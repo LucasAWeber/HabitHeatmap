@@ -1,0 +1,24 @@
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+.vite/
+
+# Local env
+.env
+.env.local
+.env.*.local
+
+# Editor/OS
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo

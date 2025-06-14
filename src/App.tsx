@@ -1,25 +1,20 @@
-import HeatMap from '@uiw/react-heat-map';
-import React from 'react';
+import { Box, } from '@mui/material';
+import Home from './pages/Home';
 
 const App = () => {
-    let endDate : Date = new Date();
-    let startDate : Date = new Date();
-    let currentYear : number = endDate.getFullYear();
-    let previousYear : number = currentYear - 1;
-    startDate.setFullYear(previousYear);
+    
   return (
-    <div style={{width: "100vh", height: "100vh", display: "flex", flexDirection: "column"}}>
-        <HeatMap
-            width={1000}
-            height={250}
-            space={2}
-            legendCellSize={0}
-            weekLabels={["","Mon","","Wed","","Fri",""]}
-            rectSize={15}
-            rectProps={{rx: 3}}
-            startDate={startDate}
-            endDate={endDate}/>
-    </div>
+    <Box sx={{
+        width: '100vw',
+        height: '100vh',
+        backgroundColor: 'background.default',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+    }}>
+        <Home/>
+    </Box>
   );
 };
 

@@ -1,7 +1,7 @@
-import { HeatMapValue } from "@uiw/react-heat-map";
 import Habit from "../components/Habit";
 import { Backdrop, Box, Button, Fade, Modal, TextField, Typography } from "@mui/material";
 import { useState } from "react";
+import { HabitData } from "@habitheatmap/shared";
 
 export default function Home() {
     const [open, setOpen] = useState(false);

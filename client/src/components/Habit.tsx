@@ -1,6 +1,6 @@
+import { HabitData } from "@habitheatmap/shared";
 import HeatMap from "@uiw/react-heat-map";
 import { Tooltip } from 'react-tooltip';
-import { HabitData } from "../pages/Home";
 
 // Used to convert the date to the month and day 
 function formatDateWithSuffix(date: Date) : string {

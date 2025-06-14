@@ -1,5 +1,5 @@
 {
-  "name": "habitheatmap",
+  "name": "@habitheatmap/client",
   "description": "Habit tracker",
   "version": "1.0.0",
   "main": "index.js",
@@ -18,21 +18,5 @@
   "bugs": {
     "url": "https://github.com/LucasAWeber/HabitHeatmap/issues"
   },
-  "homepage": "https://github.com/LucasAWeber/HabitHeatmap#readme",
-  "devDependencies": {
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
-    "typescript": "^5.8.3",
-    "vite": "^6.3.5"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
-    "@mui/material": "^7.1.1",
-    "@uiw/react-heat-map": "^2.3.3",
-    "@uiw/react-tooltip": "^4.22.3",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-tooltip": "^5.29.0"
-  }
+  "homepage": "https://github.com/LucasAWeber/HabitHeatmap#readme"
 }

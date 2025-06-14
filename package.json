@@ -1,0 +1,47 @@
+{
+  "name": "habitheatmap",
+  "version": "1.0.0",
+  "description": "Habit tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasAWeber/HabitHeatmap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LucasAWeber/HabitHeatmap/issues"
+  },
+  "homepage": "https://github.com/LucasAWeber/HabitHeatmap#readme",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server",
+    "shared"
+  ],
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.1",
+    "@uiw/react-heat-map": "^2.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-tooltip": "^5.29.0",
+    "express": "^5.1.0"
+  }
+}
